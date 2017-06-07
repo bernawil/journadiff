@@ -1,0 +1,7 @@
+extends layout
+
+block content 
+  ul
+  each link, index in links
+   li
+    a(href='lanacion' + link.href)= link.text
